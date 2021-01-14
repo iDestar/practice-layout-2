@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.header__first {
+  display: flex;
+  align-items: center;
+  width: 1920px;
+  height: 50px;
+  background-color: #efefef;
+}
+
+.site__menu_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  text-align: center;
+}
