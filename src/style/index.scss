@@ -1,8 +1,12 @@
-@use 'header.scss';
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'banner.scss';
+.hidden {
+  display: none;
+}
 
-body {
-  background-color: wheat;
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
 }

@@ -1,0 +1,121 @@
+@import 'variables.scss';
+
+.wrapper-header {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(229, 229, 229, 1) 20%,
+    rgba(255, 255, 255, 1) 20%
+  );
+}
+
+.page-header {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.main-navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 17px;
+  padding-bottom: 15px;
+}
+
+.main-navigation-list__item {
+  margin: 0 15px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-navigation-list-item__link {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $colorBlack;
+  text-decoration: none;
+}
+
+.page-header__middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 13px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #efefef;
+}
+
+.header-middle__logo-block {
+  display: flex;
+  align-items: center;
+}
+
+.logo-bock__text {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #66c05d;
+  margin-left: 18px;
+}
+
+.phone-block__text {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-right: 37px;
+}
+
+.phone-block__link {
+  display: inline-block;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #66c05d;
+  border-radius: 40px;
+  padding: 10px 24px;
+  transition: all ease-in 0.2s;
+  &:hover {
+    background-color: #66c05d;
+    color: white;
+  }
+}
+
+.second-navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 29px;
+}
+
+.second-navigation-list__item {
+  margin: 0 20px;
+  &:last-child {
+    margin-right: 5px;
+  }
+}
+
+.second-navigation-list-item__link {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  text-decoration: none;
+}
