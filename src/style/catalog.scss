@@ -1,0 +1,88 @@
+@import 'variables.scss';
+
+.wrapper-catalog {
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 106px;
+}
+
+.catalog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.catalog-header__img {
+  margin-right: 30px;
+  margin-top: 8px;
+}
+
+.catalog-header__title {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+.catalog__items {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.catalog__items-item {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 1px;
+  padding-bottom: 20px;
+  margin-top: 16px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.item__description {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.item__price {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: black;
+  margin-bottom: 14px;
+}
+
+.item__link {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: white;
+  background-color: $colorGreen;
+  text-decoration: none;
+  padding: 9px 40px;
+  border-radius: 30px;
+}

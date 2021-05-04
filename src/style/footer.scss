@@ -1,0 +1,31 @@
+.footer-page {
+  background-color: white;
+}
+
+.social-list__item {
+  width: 45px;
+  height: 45px;
+}
+
+.wrapper-footer {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.link-yotube {
+  background-image: url(/src/img/social-youtube.svg);
+}
+
+.link-vk {
+  background-image: url(/src/img/social-vk.svg);
+}
+
+.link-fb {
+  background-image: url(/src/img/social-fb.svg);
+}
+
+.link-ista {
+  background-image: url(/src/img/social-insta.svg);
+}
