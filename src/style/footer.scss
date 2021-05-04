@@ -1,31 +1,124 @@
 .footer-page {
   background-color: white;
 }
-
-.social-list__item {
-  width: 45px;
-  height: 45px;
-}
-
 .wrapper-footer {
-  max-width: 1090px;
+  max-width: 1110px;
   margin: 0 auto;
-  padding-left: 10px;
+  padding-left: 25px;
   padding-right: 10px;
 }
 
+.footer-page {
+  padding-top: 37px;
+  padding-bottom: 53px;
+}
+
+.footer-first {
+  display: flex;
+  align-items: center;
+  margin-bottom: 61px;
+}
+
+.social-list {
+  display: flex;
+  margin-right: 16.3%;
+}
+
+.social-list__item {
+  width: 41px;
+  height: 41px;
+  margin-right: 20px;
+}
+
+.social-list__item {
+  border: 2px solid #66c05d;
+  border-radius: 50%;
+}
 .link-yotube {
   background-image: url(/src/img/social-youtube.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .link-vk {
   background-image: url(/src/img/social-vk.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .link-fb {
   background-image: url(/src/img/social-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.link-ista {
+.link-insta {
   background-image: url(/src/img/social-insta.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.footer-first__phone-block {
+  margin-left: auto;
+}
+
+.adress {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-second__text {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $colorGrey;
+}
+
+.footer-second__link {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  color: $colorGrey;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer-first {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-list {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .adress {
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+  .footer-first__phone-block {
+    margin-left: 0;
+  }
+  .footer-second {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .footer-second {
+    text-align: center;
+  }
 }
